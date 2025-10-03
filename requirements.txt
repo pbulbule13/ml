@@ -1,5 +1,1 @@
 scikit-learn
-pandas
-streamlit
-numpy
-pickle5
