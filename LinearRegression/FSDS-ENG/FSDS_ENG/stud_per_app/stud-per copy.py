@@ -18,7 +18,7 @@ def preprocessing_input_data(data, scaler , le):
 
 def predict_data(data):
     model,scaler,le = load_model()
-    processed_data = preprocessing_input_data(data,scaler,le)
+    processed_data = preprocessing_input_data(data,scaler,le) #adding a commet
     prediction = model.predict(processed_data)
     return prediction
 
